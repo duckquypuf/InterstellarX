@@ -895,8 +895,7 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /Users/owaismacbook/Documents/gameEngine/include/renderer.h \
   /Users/owaismacbook/Documents/gameEngine/include/mesh.h \
   /Users/owaismacbook/Documents/gameEngine/include/scene.h \
-  /Users/owaismacbook/Documents/gameEngine/include/entity.h \
-  /Users/owaismacbook/Documents/gameEngine/include/transform.h \
+  /Users/owaismacbook/Documents/gameEngine/include/camera.h \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/../mat4x4.hpp \
   /opt/homebrew/include/glm/gtc/../vec2.hpp \
@@ -920,6 +919,8 @@ CMakeFiles/engine.dir/src/main.cpp.o: \
   /opt/homebrew/include/glm/gtc/../geometric.hpp \
   /opt/homebrew/include/glm/gtc/../trigonometric.hpp \
   /opt/homebrew/include/glm/gtc/../matrix.hpp \
+  /Users/owaismacbook/Documents/gameEngine/include/transform.h \
+  /Users/owaismacbook/Documents/gameEngine/include/entity.h \
   /Users/owaismacbook/Documents/gameEngine/include/shader.h \
   /opt/homebrew/include/glm/gtc/type_ptr.hpp \
   /opt/homebrew/include/glm/gtc/../gtc/quaternion.hpp \

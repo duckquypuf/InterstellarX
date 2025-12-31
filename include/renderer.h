@@ -14,19 +14,23 @@ namespace InterstellarX {
         Renderer() {
             projection = glm::perspective(
                 glm::radians(45.0f), // FOV
-                1280.0f / 720.0f,    // Aspect ratio
+                1440.0f / 900.0f,    // Aspect ratio
                 0.1f,                // Near plane
                 100.0f               // Far plane
             );
 
             // Enable depth testing
             glEnable(GL_DEPTH_TEST);
+
+            glFrontFace(GL_CW);
+            glCullFace(GL_BACK);
+            glEnable(GL_CULL_FACE);
         }
 
         void beginFrame()
         {
             glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         }
 
         void render(InterstellarX::Scene *scene) {

@@ -100,24 +100,10 @@ CMakeFiles/engine.dir/include/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/include/application.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owaismacbook/Documents/gameEngine/include/application.cpp -o CMakeFiles/engine.dir/include/application.cpp.s
 
-CMakeFiles/engine.dir/include/interstellar_time.cpp.o: CMakeFiles/engine.dir/flags.make
-CMakeFiles/engine.dir/include/interstellar_time.cpp.o: /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp
-CMakeFiles/engine.dir/include/interstellar_time.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/include/interstellar_time.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/include/interstellar_time.cpp.o -MF CMakeFiles/engine.dir/include/interstellar_time.cpp.o.d -o CMakeFiles/engine.dir/include/interstellar_time.cpp.o -c /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp
-
-CMakeFiles/engine.dir/include/interstellar_time.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/include/interstellar_time.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp > CMakeFiles/engine.dir/include/interstellar_time.cpp.i
-
-CMakeFiles/engine.dir/include/interstellar_time.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/include/interstellar_time.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp -o CMakeFiles/engine.dir/include/interstellar_time.cpp.s
-
 CMakeFiles/engine.dir/src/stb_impl.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/stb_impl.cpp.o: /Users/owaismacbook/Documents/gameEngine/src/stb_impl.cpp
 CMakeFiles/engine.dir/src/stb_impl.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/stb_impl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/stb_impl.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/stb_impl.cpp.o -MF CMakeFiles/engine.dir/src/stb_impl.cpp.o.d -o CMakeFiles/engine.dir/src/stb_impl.cpp.o -c /Users/owaismacbook/Documents/gameEngine/src/stb_impl.cpp
 
 CMakeFiles/engine.dir/src/stb_impl.cpp.i: cmake_force
@@ -131,7 +117,7 @@ CMakeFiles/engine.dir/src/stb_impl.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/glad.c.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/glad.c.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/glad.c
 CMakeFiles/engine.dir/thirdparty/glad.c.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/engine.dir/thirdparty/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/engine.dir/thirdparty/glad.c.o"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/glad.c.o -MF CMakeFiles/engine.dir/thirdparty/glad.c.o.d -o CMakeFiles/engine.dir/thirdparty/glad.c.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/glad.c
 
 CMakeFiles/engine.dir/thirdparty/glad.c.i: cmake_force
@@ -145,7 +131,7 @@ CMakeFiles/engine.dir/thirdparty/glad.c.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.i: cmake_force
@@ -159,7 +145,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_demo.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_demo.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.i: cmake_force
@@ -173,7 +159,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_draw.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_draw.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.i: cmake_force
@@ -187,7 +173,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_glfw.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_glfw.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.i: cmake_force
@@ -201,7 +187,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_opengl3.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.i: cmake_force
@@ -215,7 +201,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_tables.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_tables.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.i: cmake_force
@@ -229,7 +215,7 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_widgets.cpp
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o -MF CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_widgets.cpp
 
 CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.i: cmake_force
@@ -244,7 +230,6 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.s: cmake_force
 engine_OBJECTS = \
 "CMakeFiles/engine.dir/src/main.cpp.o" \
 "CMakeFiles/engine.dir/include/application.cpp.o" \
-"CMakeFiles/engine.dir/include/interstellar_time.cpp.o" \
 "CMakeFiles/engine.dir/src/stb_impl.cpp.o" \
 "CMakeFiles/engine.dir/thirdparty/glad.c.o" \
 "CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o" \
@@ -260,7 +245,6 @@ engine_EXTERNAL_OBJECTS =
 
 engine: CMakeFiles/engine.dir/src/main.cpp.o
 engine: CMakeFiles/engine.dir/include/application.cpp.o
-engine: CMakeFiles/engine.dir/include/interstellar_time.cpp.o
 engine: CMakeFiles/engine.dir/src/stb_impl.cpp.o
 engine: CMakeFiles/engine.dir/thirdparty/glad.c.o
 engine: CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o
@@ -274,7 +258,7 @@ engine: CMakeFiles/engine.dir/build.make
 engine: /opt/homebrew/lib/libglfw.3.4.dylib
 engine: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 engine: CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/owaismacbook/Documents/gameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

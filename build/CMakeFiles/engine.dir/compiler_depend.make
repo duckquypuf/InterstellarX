@@ -757,6 +757,7 @@ CMakeFiles/engine.dir/include/application.cpp.o: /Users/owaismacbook/Documents/g
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/owaismacbook/Documents/gameEngine/include/application.h \
+  /Users/owaismacbook/Documents/gameEngine/include/camera.h \
   /Users/owaismacbook/Documents/gameEngine/include/entity.h \
   /Users/owaismacbook/Documents/gameEngine/include/input.h \
   /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.h \
@@ -1776,6 +1777,7 @@ CMakeFiles/engine.dir/src/main.cpp.o: /Users/owaismacbook/Documents/gameEngine/s
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/owaismacbook/Documents/gameEngine/include/application.h \
+  /Users/owaismacbook/Documents/gameEngine/include/camera.h \
   /Users/owaismacbook/Documents/gameEngine/include/entity.h \
   /Users/owaismacbook/Documents/gameEngine/include/input.h \
   /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.h \
@@ -5333,6 +5335,8 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: /Users/owaismacbook/
 
 /opt/homebrew/include/glm/ext/vector_uint2.hpp:
 
+/opt/homebrew/include/glm/ext/vector_relational.hpp:
+
 /opt/homebrew/include/glm/detail/type_vec2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xpc/rich_error.h:
@@ -6327,8 +6331,6 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: /Users/owaismacbook/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
-/opt/homebrew/include/glm/ext/vector_relational.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/WSMethodInvocation.h:
@@ -7100,6 +7102,8 @@ CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o: /Users/owaismacbook/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MacLocales.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h:
+
+/Users/owaismacbook/Documents/gameEngine/include/camera.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
 

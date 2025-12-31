@@ -4,6 +4,7 @@
 
 namespace InterstellarX::Primitives {
     inline static Mesh* Cube = nullptr;
+    inline static Mesh *Plane = nullptr;
 
     inline void InitCube() {
         std::vector<float> vertices = {
@@ -41,18 +42,31 @@ namespace InterstellarX::Primitives {
 
         std::vector<unsigned int> indices = {
             // Front
-            0, 1, 2, 2, 3, 0,
+            2, 1, 0, 0, 3, 2,
             // Back
             4, 5, 6, 6, 7, 4,
             // Left
             8, 9, 10, 10, 11, 8,
             // Right
-            12, 13, 14, 14, 15, 12,
+            14, 13, 12, 12, 15, 14,
             // Top
             16, 17, 18, 18, 19, 16,
             // Bottom
-            20, 21, 22, 22, 23, 20};
+            22, 21, 20, 20, 23, 22};
 
         Cube = new Mesh(vertices, indices);
+    }
+
+    inline void InitPlane()
+    {
+        std::vector<float> vertices = {
+            // positions          // normals      // uvs
+            -10.0f, 0.0f, -10.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f,
+            10.0f, 0.0f, -10.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,
+            10.0f, 0.0f, 10.0f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f,
+            -10.0f, 0.0f, 10.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f};
+
+        std::vector<unsigned int> indices = {0, 1, 2, 2, 3, 0};
+        Plane = new Mesh(vertices, indices);
     }
 }

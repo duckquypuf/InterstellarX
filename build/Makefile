@@ -160,30 +160,6 @@ include/application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/include/application.cpp.s
 .PHONY : include/application.cpp.s
 
-include/interstellar_time.o: include/interstellar_time.cpp.o
-.PHONY : include/interstellar_time.o
-
-# target to build an object file
-include/interstellar_time.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/include/interstellar_time.cpp.o
-.PHONY : include/interstellar_time.cpp.o
-
-include/interstellar_time.i: include/interstellar_time.cpp.i
-.PHONY : include/interstellar_time.i
-
-# target to preprocess a source file
-include/interstellar_time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/include/interstellar_time.cpp.i
-.PHONY : include/interstellar_time.cpp.i
-
-include/interstellar_time.s: include/interstellar_time.cpp.s
-.PHONY : include/interstellar_time.s
-
-# target to generate assembly for a file
-include/interstellar_time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/include/interstellar_time.cpp.s
-.PHONY : include/interstellar_time.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -437,9 +413,6 @@ help:
 	@echo "... include/application.o"
 	@echo "... include/application.i"
 	@echo "... include/application.s"
-	@echo "... include/interstellar_time.o"
-	@echo "... include/interstellar_time.i"
-	@echo "... include/interstellar_time.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

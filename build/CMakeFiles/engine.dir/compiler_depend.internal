@@ -758,6 +758,7 @@ CMakeFiles/engine.dir/include/application.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h
  /Users/owaismacbook/Documents/gameEngine/include/application.h
+ /Users/owaismacbook/Documents/gameEngine/include/camera.h
  /Users/owaismacbook/Documents/gameEngine/include/entity.h
  /Users/owaismacbook/Documents/gameEngine/include/input.h
  /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.h
@@ -1778,6 +1779,7 @@ CMakeFiles/engine.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h
  /Users/owaismacbook/Documents/gameEngine/include/application.h
+ /Users/owaismacbook/Documents/gameEngine/include/camera.h
  /Users/owaismacbook/Documents/gameEngine/include/entity.h
  /Users/owaismacbook/Documents/gameEngine/include/input.h
  /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.h

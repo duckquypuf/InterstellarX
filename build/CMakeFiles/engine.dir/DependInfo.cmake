@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/owaismacbook/Documents/gameEngine/thirdparty/glad.c" "CMakeFiles/engine.dir/thirdparty/glad.c.o" "gcc" "CMakeFiles/engine.dir/thirdparty/glad.c.o.d"
   "/Users/owaismacbook/Documents/gameEngine/include/application.cpp" "CMakeFiles/engine.dir/include/application.cpp.o" "gcc" "CMakeFiles/engine.dir/include/application.cpp.o.d"
-  "/Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp" "CMakeFiles/engine.dir/include/interstellar_time.cpp.o" "gcc" "CMakeFiles/engine.dir/include/interstellar_time.cpp.o.d"
   "/Users/owaismacbook/Documents/gameEngine/src/main.cpp" "CMakeFiles/engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/engine.dir/src/main.cpp.o.d"
   "/Users/owaismacbook/Documents/gameEngine/src/stb_impl.cpp" "CMakeFiles/engine.dir/src/stb_impl.cpp.o" "gcc" "CMakeFiles/engine.dir/src/stb_impl.cpp.o.d"
   "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui.cpp" "CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o" "gcc" "CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o.d"

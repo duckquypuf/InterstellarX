@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/engine.dir/include/application.cpp.o"
   "CMakeFiles/engine.dir/include/application.cpp.o.d"
-  "CMakeFiles/engine.dir/include/interstellar_time.cpp.o"
-  "CMakeFiles/engine.dir/include/interstellar_time.cpp.o.d"
   "CMakeFiles/engine.dir/src/main.cpp.o"
   "CMakeFiles/engine.dir/src/main.cpp.o.d"
   "CMakeFiles/engine.dir/src/stb_impl.cpp.o"
