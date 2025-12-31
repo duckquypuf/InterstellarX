@@ -16,6 +16,7 @@ namespace InterstellarX {
 
             Shader(std::string vertexPath, std::string fragmentPath, const char *geometryPath = nullptr)
             {
+                std::cout << std::filesystem::current_path() << std::endl;
                 std::string vpath = "../assets/shaders/" + vertexPath;
                 std::string fpath = "../assets/shaders/" + fragmentPath;
 
