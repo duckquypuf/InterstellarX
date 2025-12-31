@@ -7,26 +7,28 @@
 #include <sstream>
 #include <fstream>
 #include <istream>
+#include <string>
 
 namespace InterstellarX {
     class Shader {
         public:
             unsigned int ID;
 
-            Shader(const char *vertexPath, const char *fragmentPath, const char *geometryPath = nullptr)
+            Shader(std::string vertexPath, std::string fragmentPath, const char *geometryPath = nullptr)
             {
-                std::string vertexCode, fragmentCode, geometryCode;
-                std::ifstream vShaderFile, fShaderFile, gShaderFile;
+                std::string vpath = "../assets/shaders/" + vertexPath;
+                std::string fpath = "../assets/shaders/" + fragmentPath;
+
+                std::string vertexCode, fragmentCode;
+                std::ifstream vShaderFile, fShaderFile;
 
                 vShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
                 fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-                if (geometryPath)
-                    gShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
 
                 try
                 {
-                    vShaderFile.open(vertexPath);
-                    fShaderFile.open(fragmentPath);
+                    vShaderFile.open(vpath);
+                    fShaderFile.open(fpath);
                     std::stringstream vShaderStream, fShaderStream;
 
                     vShaderStream << vShaderFile.rdbuf();
@@ -37,15 +39,6 @@ namespace InterstellarX {
 
                     vertexCode = vShaderStream.str();
                     fragmentCode = fShaderStream.str();
-
-                    if (geometryPath)
-                    {
-                        gShaderFile.open(geometryPath);
-                        std::stringstream gShaderStream;
-                        gShaderStream << gShaderFile.rdbuf();
-                        gShaderFile.close();
-                        geometryCode = gShaderStream.str();
-                    }
                 }
                 catch (std::ifstream::failure &e)
                 {
@@ -65,28 +58,14 @@ namespace InterstellarX {
                 glCompileShader(fragment);
                 checkCompileErrors(fragment, "FRAGMENT");
 
-                unsigned int geometry;
-                if (geometryPath)
-                {
-                    const char *gShaderCode = geometryCode.c_str();
-                    geometry = glCreateShader(GL_GEOMETRY_SHADER);
-                    glShaderSource(geometry, 1, &gShaderCode, NULL);
-                    glCompileShader(geometry);
-                    checkCompileErrors(geometry, "GEOMETRY");
-                }
-
                 ID = glCreateProgram();
                 glAttachShader(ID, vertex);
                 glAttachShader(ID, fragment);
-                if (geometryPath)
-                    glAttachShader(ID, geometry);
                 glLinkProgram(ID);
                 checkCompileErrors(ID, "PROGRAM");
 
                 glDeleteShader(vertex);
                 glDeleteShader(fragment);
-                if (geometryPath)
-                    glDeleteShader(geometry);
             }
 
             void use() {

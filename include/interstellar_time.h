@@ -7,5 +7,9 @@ namespace InterstellarX::Time {
     inline float deltaTime = 0.0f;
     inline float lastFrame = 0.0f;
 
-    static void Update();
+    inline void Update() {
+        time = glfwGetTime();
+        deltaTime = time - lastFrame;
+        lastFrame = time;
+    }
 };

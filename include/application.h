@@ -28,6 +28,7 @@ public:
     static void Update()
     {
         input->update(window->window);
+        renderer->beginFrame();
         renderer->render(scene);
         window->update();
     }
