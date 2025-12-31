@@ -45,12 +45,12 @@ int main()
 
     InterstellarX::Entity *cube = new InterstellarX::Entity();
     cube->mesh = InterstellarX::Primitives::Cube;
-    cube->shader = basicShader;
+    cube->mesh->material.shader = basicShader;
     cube->transform.position = glm::vec3(0.0f, 0.0f, 0.0f);
 
     InterstellarX::Entity *ground = new InterstellarX::Entity();
     ground->mesh = InterstellarX::Primitives::Plane;
-    ground->shader = basicShader;
+    ground->mesh->material.shader = basicShader;
     ground->transform.position = glm::vec3(0.0f, -2.0f, 0.0f);
 
     Application::scene->add(ground);

@@ -4,6 +4,8 @@
 #include <glm/glm.hpp>
 #include <vector>
 
+#include "material.h"
+
 namespace InterstellarX {
 
     class Mesh {
@@ -12,6 +14,8 @@ namespace InterstellarX {
         unsigned int vbo;
         unsigned int ebo;
         unsigned int indexCount;
+
+        Material material;
 
         Mesh(const std::vector<float>& vertices, const std::vector<unsigned int>& indices) {
             glGenVertexArrays(1, &vao);

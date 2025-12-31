@@ -1,5 +1,12 @@
 #pragma once
 
-namespace InterstellarX {
+#include "shader.h"
 
+namespace InterstellarX {
+    class Material {
+    public:
+        InterstellarX::Shader *shader;
+
+        
+    };
 };

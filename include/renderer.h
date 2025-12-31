@@ -36,10 +36,10 @@ namespace InterstellarX {
         void render(InterstellarX::Scene *scene) {
             for(auto &e : scene->entities)
             {
-                e->shader->use();
-                e->shader->setMat4("model", e->transform.GetTransformationMatrix());
-                e->shader->setMat4("view", scene->camera->GetViewMatrix());
-                e->shader->setMat4("projection", projection);
+                e->mesh->material.shader->use();
+                e->mesh->material.shader->setMat4("model", e->transform.GetTransformationMatrix());
+                e->mesh->material.shader->setMat4("view", scene->camera->GetViewMatrix());
+                e->mesh->material.shader->setMat4("projection", projection);
                 e->mesh->Draw();
             }
         }
