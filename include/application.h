@@ -23,6 +23,7 @@ public:
         input = new InterstellarX::Input();
         renderer = new InterstellarX::Renderer();
         scene = new InterstellarX::Scene();
+        scene->init();
     }
 
     static void Update()
