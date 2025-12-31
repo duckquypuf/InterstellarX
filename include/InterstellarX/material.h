@@ -1,6 +1,6 @@
 #pragma once
 
-#include "shader.h"
+#include "InterstellarX/shader.h"
 
 namespace InterstellarX {
     class Material {

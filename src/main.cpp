@@ -1,23 +1,22 @@
 #include <iostream>
 
-#include "InterstellarX.h"
+#include "InterstellarX/InterstellarX.h"
+
+using namespace InterstellarX;
 
 int main()
 {
     Application::Init();
 
-    InterstellarX::Primitives::InitCube();
-    InterstellarX::Primitives::InitPlane();
+    Primitives::InitCube();
+    Primitives::InitPlane();
 
-    InterstellarX::Shader *basicShader = new InterstellarX::Shader("basic_vert.glsl", "basic_frag.glsl");
+    Shader *basicShader = new Shader("basic_vert.glsl", "basic_frag.glsl");
 
-    InterstellarX::Entity *cube = new InterstellarX::Entity();
-    cube->mesh = InterstellarX::Primitives::Cube;
+    Entity *cube = Instantiate(Primitives::Cube);
     cube->mesh->material.shader = basicShader;
-    cube->transform.position = glm::vec3(0.0f, 0.0f, 0.0f);
 
-    InterstellarX::Entity *ground = new InterstellarX::Entity();
-    ground->mesh = InterstellarX::Primitives::Plane;
+    Entity *ground = Instantiate(Primitives::Plane);
     ground->mesh->material.shader = basicShader;
     ground->transform.position = glm::vec3(0.0f, -2.0f, 0.0f);
 

@@ -16,6 +16,7 @@ file(GLOB IMGUI_SOURCES
 
 file(GLOB INCLUDE_SOURCES
     include/*.cpp
+    include/InterstellarX/*.cpp
 )
 
 add_executable(engine
