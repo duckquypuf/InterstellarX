@@ -1,1 +1,2 @@
 # InterstellarX
+InterstellarX is a game engine created by duckquypuf. It is currently in development as it is in early stages. Production started on 31.12.25 and I am working on implementing scripts and physics.
