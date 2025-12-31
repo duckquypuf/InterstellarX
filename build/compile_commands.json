@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/owaismacbook/Documents/gameEngine/src/main.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/src/main.cpp",
+  "output": "CMakeFiles/engine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/include/application.cpp.o -c /Users/owaismacbook/Documents/gameEngine/include/application.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/include/application.cpp",
+  "output": "CMakeFiles/engine.dir/include/application.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/include/interstellar_time.cpp.o -c /Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/include/interstellar_time.cpp",
+  "output": "CMakeFiles/engine.dir/include/interstellar_time.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/src/stb_impl.cpp.o -c /Users/owaismacbook/Documents/gameEngine/src/stb_impl.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/src/stb_impl.cpp",
+  "output": "CMakeFiles/engine.dir/src/stb_impl.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/glad.c.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/glad.c",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/glad.c",
+  "output": "CMakeFiles/engine.dir/thirdparty/glad.c.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_demo.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_draw.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_tables.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/owaismacbook/Documents/gameEngine/build",
+  "command": "/usr/bin/clang++  -I/Users/owaismacbook/Documents/gameEngine/include -I/Users/owaismacbook/Documents/gameEngine/src -I/Users/owaismacbook/Documents/gameEngine/thirdparty -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -O3 -march=native -DNDEBUG -flto -g -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o -c /Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_widgets.cpp",
+  "file": "/Users/owaismacbook/Documents/gameEngine/thirdparty/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/engine.dir/thirdparty/imgui/imgui_widgets.cpp.o"
+}
+]
