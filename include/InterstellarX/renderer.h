@@ -9,16 +9,7 @@ namespace InterstellarX {
     class Renderer
     {
     public:
-        glm::mat4 projection;
-
         Renderer() {
-            projection = glm::perspective(
-                glm::radians(45.0f), // FOV
-                1440.0f / 900.0f,    // Aspect ratio
-                0.1f,                // Near plane
-                100.0f               // Far plane
-            );
-
             // Enable depth testing
             glEnable(GL_DEPTH_TEST);
 
@@ -33,14 +24,16 @@ namespace InterstellarX {
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         }
 
-        void render(InterstellarX::Scene *scene) {
+        void render(Scene *scene, Window *window) {
             for(auto &e : scene->entities)
             {
-                e->mesh->material.shader->use();
-                e->mesh->material.shader->setMat4("model", e->transform.GetTransformationMatrix());
-                e->mesh->material.shader->setMat4("view", scene->camera->GetViewMatrix());
-                e->mesh->material.shader->setMat4("projection", projection);
-                e->mesh->Draw();
+                if(e->mesh) {
+                    e->mesh->material.shader->use();
+                    e->mesh->material.shader->setMat4("model", e->transform.GetTransformationMatrix());
+                    e->mesh->material.shader->setMat4("view", scene->camera->GetViewMatrix());
+                    e->mesh->material.shader->setMat4("projection", scene->camera->GetProjectionMatrix(window));
+                    e->mesh->Draw();
+                }
             }
         }
     };

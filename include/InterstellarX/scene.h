@@ -2,19 +2,21 @@
 
 #include <vector>
 
-#include "camera.h"
+#include "Components/camera.h"
 #include "entity.h"
-#include "monobehaviour.h"
+#include "Components/monobehaviour.h"
 
 namespace InterstellarX {
     class Scene {
     public:
         std::vector<InterstellarX::Entity*> entities;
 
+        Entity *cameraObject;
         Camera *camera;
 
         void init() {
-            camera = new Camera();
+            cameraObject = new Entity();
+            camera = cameraObject->addComponent<Camera>();
         }
 
         void add(Entity *e) {
@@ -22,19 +24,21 @@ namespace InterstellarX {
         }
 
         void start() {
+            camera->Start();
+
             for (auto &e : entities) {
-                MonoBehaviour *script = e->getComponent<MonoBehaviour>();
-                if (script) {
-                    script->Start();
+                for(auto &c : e->components) {
+                    c->Start();
                 }
             }
         }
 
         void update() {
+            camera->Update();
+
             for(auto &e : entities) {
-                MonoBehaviour *script = e->getComponent<MonoBehaviour>();
-                if(script) {
-                    script->Update();
+                for (auto &c : e->components) {
+                    c->Update();
                 }
             }
         }

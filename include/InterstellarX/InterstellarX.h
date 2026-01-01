@@ -1,6 +1,7 @@
 #pragma once
 
+#include <glm/glm.hpp>
+
 #include "application.h"
-#include "interstellar_time.h"
-#include "input.h"
-#include "monobehaviour.h"
+#include "Components/monobehaviour.h"
+#include "Components/rigidbody.h"

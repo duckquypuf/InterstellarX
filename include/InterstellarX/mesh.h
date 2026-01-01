@@ -7,7 +7,6 @@
 #include "material.h"
 
 namespace InterstellarX {
-
     class Mesh {
     public:
         unsigned int vao;

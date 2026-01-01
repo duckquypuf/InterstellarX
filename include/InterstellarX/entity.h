@@ -2,11 +2,14 @@
 
 #include <vector>
 
-#include "transform.h"
+#include "Components/transform.h"
 #include "mesh.h"
-#include "component.h"
+#include "Components/component.h"
 
 namespace InterstellarX {
+    class Application;
+    class Scene;
+
     class Entity {
     public:
         InterstellarX::Transform transform;
@@ -24,27 +27,19 @@ namespace InterstellarX {
             }
             return nullptr;
         }
+
+        template <typename T, typename... Args>
+        T *addComponent(Args &&...args)
+        {
+            auto newComp = std::make_unique<T>(std::forward<Args>(args)...);
+            T *ptr = newComp.get();
+            newComp->SetEntity(this);
+            components.push_back(std::move(newComp));
+            return ptr;
+        }
     };
 
-    inline Entity *Instantiate(Mesh *primitive) {
-        // Primitive
-        Entity *e = new Entity();
-        e->mesh = primitive;
-
-        return e;
-    }
-
-    inline Entity *Instantiate(Entity *prefab, Transform &transform) {
-        // Prefabs
-        Entity *e = new Entity();
-        e->transform = Transform(transform.position, transform.rotation, transform.scale);
-        e->mesh = prefab->mesh;
-
-        return e;
-    }
-
-    inline Entity *Instantiate() {
-        // Empty Gameobject
-        return new Entity();
-    }
+    Entity *Instantiate(Mesh *primitive);
+    Entity *Instantiate(Entity *prefab, Transform &transform);
+    Entity *Instantiate();
 }

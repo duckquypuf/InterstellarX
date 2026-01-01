@@ -9,6 +9,9 @@ namespace InterstellarX {
     public:
         virtual ~Component() = default;
 
+        virtual void Start() {}
+        virtual void Update() {}
+
         void SetEntity(Entity *obj) { entity = obj; }
     };
 };

@@ -3,7 +3,7 @@
 #include "component.h"
 
 namespace InterstellarX {
-    class MonoBehaviour : Component {
+    class MonoBehaviour : public Component {
     public:
         virtual void Start() {}
         virtual void Update() {}
