@@ -4,7 +4,7 @@
 
 using namespace InterstellarX;
 
-class CameraMovement : public MonoBehaviour {
+class CameraMovement : public Component {
 public:
     void Update() override {
         if(Application::input->isKeyDown(Application::window->window, Keys::KEY_SPACE)) {

@@ -16,7 +16,8 @@ namespace Assets {
 
         Texture(std::string path) {
             filePath = path;
-            id = loadTexture(("../assets/texture/" + path).c_str());
+            std::string fullPath = "../assets/texture/" + path;
+            id = loadTexture(fullPath.c_str());
         }
     };
 

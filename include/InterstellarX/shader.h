@@ -7,6 +7,7 @@
 #include <sstream>
 #include <fstream>
 #include <istream>
+#include <filesystem>
 #include <string>
 
 namespace InterstellarX {
@@ -16,7 +17,6 @@ namespace InterstellarX {
 
             Shader(std::string vertexPath, std::string fragmentPath, const char *geometryPath = nullptr)
             {
-                std::cout << std::filesystem::current_path() << std::endl;
                 std::string vpath = "../assets/shaders/" + vertexPath;
                 std::string fpath = "../assets/shaders/" + fragmentPath;
 
@@ -67,6 +67,10 @@ namespace InterstellarX {
 
                 glDeleteShader(vertex);
                 glDeleteShader(fragment);
+            }
+
+            ~Shader() {
+                glDeleteProgram(ID);
             }
 
             void use() {

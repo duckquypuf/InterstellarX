@@ -59,9 +59,5 @@ namespace InterstellarX {
             glfwSwapBuffers(window);
             glfwPollEvents();
         }
-
-    private:
-        double lastX = 0.0, lastY = 0.0;
-        bool firstMouse = true;
     };
 };

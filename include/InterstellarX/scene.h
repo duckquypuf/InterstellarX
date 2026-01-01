@@ -4,7 +4,6 @@
 
 #include "Components/camera.h"
 #include "entity.h"
-#include "Components/monobehaviour.h"
 
 namespace InterstellarX {
     class Scene {
@@ -14,9 +13,16 @@ namespace InterstellarX {
         Entity *cameraObject;
         Camera *camera;
 
+        ~Scene() {
+            for (auto e : entities)
+                delete e;
+            entities.clear();
+        }
+
         void init() {
             cameraObject = new Entity();
             camera = cameraObject->addComponent<Camera>();
+            entities.push_back(cameraObject);
         }
 
         void add(Entity *e) {
@@ -24,8 +30,6 @@ namespace InterstellarX {
         }
 
         void start() {
-            camera->Start();
-
             for (auto &e : entities) {
                 for(auto &c : e->components) {
                     c->Start();
@@ -34,8 +38,6 @@ namespace InterstellarX {
         }
 
         void update() {
-            camera->Update();
-
             for(auto &e : entities) {
                 for (auto &c : e->components) {
                     c->Update();

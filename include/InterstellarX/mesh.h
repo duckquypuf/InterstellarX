@@ -45,6 +45,12 @@ namespace InterstellarX {
             indexCount = indices.size();
         }
 
+        ~Mesh() {
+            glDeleteVertexArrays(1, &vao);
+            glDeleteBuffers(1, &vbo);
+            glDeleteBuffers(1, &ebo);
+        }
+
         void Draw() const {
             glBindVertexArray(vao);
             glDrawElements(GL_TRIANGLES, indexCount, GL_UNSIGNED_INT, 0);
