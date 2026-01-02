@@ -3,7 +3,7 @@
 #include <string>
 
 #include "window.h"
-#include "input.h"
+#include "keys.h"
 #include "input_helper.h"
 #include "renderer.h"
 

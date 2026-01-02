@@ -2,7 +2,7 @@
 
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
-#include "input.h"
+#include "keys.h"
 
 namespace InterstellarX {
     class Input {
