@@ -1,7 +1,5 @@
 #pragma once
 
-#include <GLFW/glfw3.h>
-
 namespace InterstellarX {
     namespace Keys
     {
@@ -41,55 +39,7 @@ namespace InterstellarX {
         static constexpr int KEY_E = GLFW_KEY_E;
         static constexpr int KEY_R = GLFW_KEY_R;
         static constexpr int KEY_F = GLFW_KEY_F;
-        static constexpr int KEY_SHIFT = GLFW_KEY_LEFT_SHIFT;
+        static constexpr int KEY_LEFT_SHIFT = GLFW_KEY_LEFT_SHIFT;
         static constexpr int KEY_CTRL = GLFW_KEY_LEFT_CONTROL;
     }
-
-    struct InputState
-    {
-        bool leftMouseButton = false;
-        bool rightMouseButton = false;
-
-        float mouseX = 0.0f;
-        float mouseY = 0.0f;
-    };
-
-    class Input
-    {
-    public:
-        InputState state{};
-        double lastX = 0.0, lastY = 0.0;
-        bool firstMouse = true;
-
-        void update(GLFWwindow *window)
-        {
-            double x, y;
-            glfwGetCursorPos(window, &x, &y);
-            if (firstMouse)
-            {
-                lastX = x;
-                lastY = y;
-                firstMouse = false;
-            }
-
-            state.mouseX = float(x - lastX);
-            state.mouseY = float(lastY - y);
-            lastX = x;
-            lastY = y;
-
-            state.leftMouseButton = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS;
-            state.rightMouseButton = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT) == GLFW_PRESS;
-        }
-
-        bool isKeyDown(GLFWwindow *window, int key){
-            return glfwGetKey(window, key) == GLFW_PRESS;
-        }
-
-        glm::vec2 getMousePos(GLFWwindow *window)
-        {
-            double x, y;
-            glfwGetCursorPos(window, &x, &y);
-            return {float(x), float(y)};
-        }
-    };
 };

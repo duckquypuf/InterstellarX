@@ -9,7 +9,6 @@
 #include <iomanip>
 
 #include "InterstellarX/interstellar_time.h"
-#include "InterstellarX/input.h"
 
 namespace InterstellarX {
     class Window
