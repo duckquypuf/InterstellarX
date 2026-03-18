@@ -82,11 +82,13 @@ InterstellarX/
 
 #include "InterstellarX/InterstellarX.h"
 
+// OPTIONAL: include namespace to avoid typing InterstellarX::
 using namespace InterstellarX;
 
 class CameraMovement : public Component {
 public:
     void Update() override {
+        // Get the camera object from the entity holding this script
         auto cam = entity->getComponent<Camera>();
         glm::vec3 move = Input::getMoveDirection();
 
@@ -99,13 +101,10 @@ public:
         entity->transform.position.y += move.y * speed * Time::deltaTime;
 
         // Mouse look
-        if (true)
-        {
-            glm::vec2 mouseDelta = Input::getMouseDelta();
-            entity->transform.rotation.y += mouseDelta.x * sensitivity;
-            entity->transform.rotation.x -= mouseDelta.y * sensitivity;
-            entity->transform.rotation.x = glm::clamp(entity->transform.rotation.x, -89.0f, 89.0f);
-        }
+        glm::vec2 mouseDelta = Input::getMouseDelta();
+        entity->transform.rotation.y += mouseDelta.x * sensitivity;
+        entity->transform.rotation.x -= mouseDelta.y * sensitivity;
+        entity->transform.rotation.x = glm::clamp(entity->transform.rotation.x, -89.0f, 89.0f);
     }
 };
 ```
@@ -119,6 +118,7 @@ using namespace InterstellarX;
 int main() {
     Application::InitWindow(1440, 900, "My Game");
 
+    // link your shader files
     Shader *basicShader = new Shader("basic_vert.glsl", "basic_frag.glsl");
 
     Entity *cube = Instantiate(Primitives::Cube);
@@ -129,8 +129,10 @@ int main() {
     ground->mesh->material.shader = basicShader;
     ground->transform.position = glm::vec3(0.0f, -2.0f, 0.0f);
 
+    // add custom script to camera
     Application::scene->cameraObject->addComponent<CameraMovement>();
 
+    // necessary for the loop
     Application::Start();
     while (Application::isRunning()) {
         Application::Update();
